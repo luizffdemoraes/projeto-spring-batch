@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.batch=1
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.h2=1
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.artifactId=primeiro-projeto-spring-batch
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.bootVersion=3.1.5
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.description=Meu primeiro projeto Spring Batch
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.groupId=com.udemy
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.javaVersion=17
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.language=java
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.name=primeiro-projeto-spring-batch
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packageName=com.udemy.primeiro-projeto-spring-batch
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packaging=jar
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.type=MAVEN
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.version=0.0.1-SNAPSHOT
+org.springframework.ide.eclipse.boot.wizard.initializr.url=https\://start.spring.io\n

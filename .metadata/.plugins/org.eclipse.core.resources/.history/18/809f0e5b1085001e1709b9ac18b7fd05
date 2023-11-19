@@ -1,0 +1,14 @@
+package com.udemy.primeiroprojetospringbatch;
+
+import org.springframework.batch.core.Job;
+
+public class BatchConfig {
+	
+	@Autowired
+	private JobBuilderFactory
+	
+	public Job ImprimeOlaJob() {
+		
+	}
+
+}
