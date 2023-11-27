@@ -63,3 +63,45 @@ select * from batch_step_execution_context;
 <p align="center">
   <img alt="Comando select from batch_step_execution_context" src="imagens/batch_step_execution_context.png">
 </p>
+
+# Informar para cada execução, qual parametros foi utilizado
+```
+select * from batch_job_execution_params;
+```
+<p align="center">
+  <img alt="Comando select from batch_job_execution_params" src="imagens/batch_job_execution_params.png">
+</p>
+
+# Limpar metadados springbatch
+```
+delete from batch_job_execution_context;
+delete from batch_job_execution_params;
+delete from batch_job_execution_seq;
+
+delete from batch_step_execution_context;
+delete from batch_step_execution_seq;
+delete from batch_step_execution;
+
+delete from batch_job_execution;
+delete from batch_job_instance;
+delete from batch_job_seq;
+```
+
+# Caso receba o erro
+```
+delete from batch_job_execution_seq where UNIQUE_KEY = 0	Error Code: 1175.
+```
+
+## 1. Adicione uma cláusula WHERE com uma coluna de chave:
+
+Certifique-se de incluir uma cláusula WHERE em sua instrução DELETE que use uma coluna de chave primária ou única para garantir que apenas as linhas desejadas sejam afetadas.
+
+## 2. Desative o modo de atualização segura:
+
+Siga as instruções mencionadas anteriormente para desativar o modo de atualização segura nas preferências do MySQL Workbench.
+
+* Acesse "Edit" no menu superior.
+* Escolha "Preferences".
+* Vá para "SQL Editor" na barra lateral esquerda.
+* Desmarque a opção "Safe Updates (rejects UPDATEs and DELETEs with no restrictions)".
+* Clique em "OK" e reconecte-se ao banco de dados.
